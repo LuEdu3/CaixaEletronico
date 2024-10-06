@@ -7,8 +7,13 @@ int saldo = 0;
 
 Console.WriteLine("\nInsira o cartão");
 //Thread.Sleep(4000);
+
+
+
 Console.WriteLine("Tipo da conta 1 Corrente || 2 Poupança");
 if (int.TryParse(Console.ReadLine(), out int conta))
+    while(true)
+{
     switch (conta)
     {
         case 1:
@@ -23,17 +28,19 @@ if (int.TryParse(Console.ReadLine(), out int conta))
                         {
                             saldo += saldoDeposito;
                             Console.WriteLine("Depósito realizado. Saldo Atual: " + saldo);
+                            Console.Clear();
                         }
                         else
                         {
                             Console.WriteLine("Valor inválido para depósito.");
                         }
                         break;
+
                     case 2:
                         Console.WriteLine("Digite o valor a sacar: ");
                         if (int.TryParse(Console.ReadLine(), out int saldoSaque))
                         {
-                            if (saldo < saldoSaque)
+                            if (saldoSaque > saldo)
                             {
                                 bool repetir = true;
                                 do
@@ -52,8 +59,16 @@ if (int.TryParse(Console.ReadLine(), out int conta))
 
                         }
                         break;
+                        case 3:
+                        Console.WriteLine("Saindo do caixa, ate mais");
+                        return;
+                        break;
+                        default:
+                        Console.WriteLine("Tipo de transação inválido.");
+                        break;
                 }
             break;
     }
+}
 
 
