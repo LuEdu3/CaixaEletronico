@@ -75,10 +75,15 @@ return1:
                                 string dadosBanco = Console.ReadLine();
                                 return2:
                                 Console.WriteLine("Confira os dados para transferência");
+                                escrever.WriteLine("Confira os dados para transferência");
                                 Console.WriteLine($"{dadosContaCorrente}");
+                                escrever.WriteLine($"{dadosContaCorrente}");
                                 Console.WriteLine($"{dadosAgencia}");
+                                escrever.WriteLine($"{dadosAgencia}");
                                 Console.WriteLine($"{dadosBanco}");
+                                escrever.WriteLine($"{dadosBanco}");
                                 Console.WriteLine("Valor para transferência: ");
+                                escrever.WriteLine("Valor para transferência: ");
                                 if(saldo<=0)
                                 {
                                     Console.WriteLine("Saldo igual a 0 deseja depositar?");
@@ -100,6 +105,7 @@ return1:
                                 {
                                     int transferencia = int.Parse(Console.ReadLine());
                                     Console.WriteLine($"Transferência de {transferencia} realizada.");
+                                    escrever.WriteLine($"Transferência de {transferencia} realizada.");
                                 }
                             break;
 
