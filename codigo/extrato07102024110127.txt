@@ -1,8 +1,0 @@
-Depósito realizado.
-Saldo Atual: 1000
-Depósito realizado.
-Saldo Atual: 1300
-Saque realizado
-Saldo atual: 1200
-Saque realizado
-Saldo atual: 1000

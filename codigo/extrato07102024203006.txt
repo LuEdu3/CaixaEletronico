@@ -1,0 +1,10 @@
+                 ......Caixa eletrônico...... Sessão iniciada 07/10/2024 20:30:06
+--------------------
+--------------------
+Depósito 07/10/2024 20:30:13
+Depósito realizado.
+Saldo Atual: 100000
+--------------------
+--------------------
+Saindo
+Saindo do caixa eletrônico, retire seu cartão 07/10/2024 20:30:16

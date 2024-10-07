@@ -1,0 +1,22 @@
+                 ......Caixa eletrônico......
+--------------------
+--------------------
+Depósito 07/10/2024 17:47:04
+Depósito realizado.
+Saldo Atual: 10000
+--------------------
+--------------------
+Saque
+Saque realizado
+Saldo atual: 9900
+--------------------
+--------------------
+Transferência 07/10/2024 17:47:31
+Confira os dados para transferência
+123
+123
+Azure
+Valor para transferência: 
+Transferência de 100 realizada.
+--------------------
+--------------------
