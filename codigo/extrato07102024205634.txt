@@ -1,0 +1,24 @@
+                 ......Caixa eletrônico...... Sessão iniciada 07/10/2024 20:56:34
+--------------------
+--------------------
+Depósito 07/10/2024 20:56:47
+Depósito realizado.
+Saldo Atual: 1500
+--------------------
+--------------------
+Saque
+Saque realizado
+Saldo atual: 1000
+--------------------
+--------------------
+Transferência 07/10/2024 20:57:06
+Confira os dados para transferência
+12345670
+1234
+Bradesco
+Valor para transferência: 
+Transferência de 500 realizada.
+--------------------
+--------------------
+Saindo
+Saindo do caixa eletrônico, retire seu cartão 07/10/2024 20:57:41
